@@ -2,7 +2,6 @@ CREATE TABLE `certification` (
   `certification_id` int NOT NULL,
   `certification_desc` varchar(255) DEFAULT NULL,
   `certification_name` varchar(255) DEFAULT NULL,
-  `user_id` int DEFAULT NULL,
-  PRIMARY KEY (`certification_id`),
+  `user_id` int DEFAULT NULL, PRIMARY KEY (`certification_id`),
   KEY `FKjmhx0ociffsvq09ibfocsv15w` (`user_id`)
 )
