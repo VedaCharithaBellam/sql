@@ -1,0 +1,11 @@
+CREATE TABLE `experience` (
+  `exp_id` int NOT NULL,
+  `exp_end_date` datetime DEFAULT NULL,
+  `exp_org` varchar(255) DEFAULT NULL,
+  `exp_role` varchar(255) DEFAULT NULL,
+  `exp_start_date` datetime DEFAULT NULL,
+  `user_id` int DEFAULT NULL,
+  `exp_desc` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`exp_id`),
+  KEY `FK41lup37auw1bvwwqpgn0blbic` (`user_id`)
+)
