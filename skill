@@ -1,0 +1,8 @@
+CREATE TABLE `skill` (
+  `skill_id` int NOT NULL,
+  `skill_level` varchar(255) DEFAULT NULL,
+  `skill_name` varchar(255) DEFAULT NULL,
+  `user_id` int DEFAULT NULL,
+  PRIMARY KEY (`skill_id`),
+  KEY `FKlgluovqqqd34v705og915ryye` (`user_id`)
+)
