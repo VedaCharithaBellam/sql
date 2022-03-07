@@ -1,0 +1,10 @@
+CREATE TABLE `education` (
+  `edu_id` int NOT NULL,
+  `edu_end_date` datetime DEFAULT NULL,
+  `edu_org` varchar(255) DEFAULT NULL,
+  `edu_start_date` datetime DEFAULT NULL,
+  `edu_stream` varchar(255) DEFAULT NULL,
+  `user_id` int DEFAULT NULL,
+  PRIMARY KEY (`edu_id`),
+  KEY `FKaw3ebf3585a1ndgqnk6k6hosc` (`user_id`)
+)
